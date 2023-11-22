@@ -51,3 +51,6 @@ npm install
 ```
 npm start
 ```
+
+## Acknowledgements
+[Jonas Schmedtmann](https://github.com/jonasschmedtmann)
