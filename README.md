@@ -52,5 +52,10 @@ npm install
 npm start
 ```
 
+## Deployment
+
+Continuous Integration is set up with Netlify. As soon as code is merged into main branch, it will automatically deploy.
+
 ## Acknowledgements
+
 [Jonas Schmedtmann](https://github.com/jonasschmedtmann)
