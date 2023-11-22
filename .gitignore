@@ -1,0 +1,6 @@
+node_modules
+.parcel-cache
+dist
+.DS_store
+.stignore
+Forkify JS Course.code-workspace
