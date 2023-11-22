@@ -10,15 +10,9 @@ import addRecipeView from './views/addRecipeView.js';
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
 
-// if (module.hot) {
-//   module.hot.accept();
-// }
-///////////////////////////////////////
-
 const controlRecipes = async function () {
   try {
     const id = window.location.hash.slice(1);
-    // console.log(id);
     if (!id) return;
 
     recipeView.renderSpinner();
@@ -68,7 +62,6 @@ const controlPagination = function (curPage) {
 };
 
 const controlServings = function (servings) {
-  // console.log('control servings');
   // Update the recipe servings (in state)
   model.updateServings(servings);
   // Update the view
